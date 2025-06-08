@@ -1,37 +1,282 @@
 [
-  { "id": "menu_home", "title": "Home", "image": "home.jpg", "content": "Welcome to the home page." },
-  { "id": "menu_history", "title": "History", "image": "home.jpg", "content": "Learn about our history." },
-  { "id": "menu_the_lcc", "title": "The LCC", "image": "home.jpg", "content": "Discover more about The LCC." },
-  { "id": "menu_elders", "title": "Elders", "image": "home.jpg", "content": "Meet our church elders." },
-  { "id": "menu_parish_admin", "title": "Parish Admin", "image": "home.jpg", "content": "Administrative details and contacts." },
-  { "id": "menu_leaders", "title": "Leaders", "image": "home.jpg", "content": "Our leadership team." },
-  { "id": "menu_staff", "title": "Staff", "image": "home.jpg", "content": "Meet the church staff." },
-  { "id": "menu_youth", "title": "Youth", "image": "home.jpg", "content": "Programs and news for the youth." },
-  { "id": "menu_womans_guild", "title": "Womans Guild", "image": "home.jpg", "content": "Women’s Guild activities and events." },
-  { "id": "menu_pcmf", "title": "P.C.M.F", "image": "home.jpg", "content": "Presbyterian Church Men's Fellowship." },
-  { "id": "menu_brigade", "title": "Brigade", "image": "home.jpg", "content": "Church brigade initiatives." },
-  { "id": "menu_church_school", "title": "Church School", "image": "home.jpg", "content": "Children’s church and education programs." },
-  { "id": "menu_christian_education", "title": "Christian Education", "image": "home.jpg", "content": "Learn and grow in faith." },
-  { "id": "menu_church_boards", "title": "Church Boards", "image": "home.jpg", "content": "Structure and board information." },
-  { "id": "menu_sycamore_academy", "title": "Sycamore Academy", "image": "home.jpg", "content": "Information about Sycamore Academy." },
-  { "id": "menu_uhai_water", "title": "Uhai Water", "image": "home.jpg", "content": "Uhai Water projects and impact." },
-  { "id": "menu_olosurutia", "title": "Olosurutia", "image": "home.jpg", "content": "Olosurutia fellowship and programs." },
-  { "id": "menu_jerusalem", "title": "Jerusalem", "image": "home.jpg", "content": "Jerusalem parish details." },
-  { "id": "menu_tumaini", "title": "Tumaini", "image": "home.jpg", "content": "Tumaini group activities." },
-  { "id": "menu_enchoro", "title": "Enchoro", "image": "home.jpg", "content": "Enchoro sub-group details." },
-  { "id": "menu_rimpa", "title": "Rimpa", "image": "home.jpg", "content": "Rimpa local fellowship." },
-  { "id": "menu_lemelepo", "title": "Lemelepo", "image": "home.jpg", "content": "Lemelepo group information." },
-  { "id": "menu_upper_bethany", "title": "Upper Bethany", "image": "home.jpg", "content": "Upper Bethany details and events." },
-  { "id": "menu_lower_bethany", "title": "Lower Bethany", "image": "home.jpg", "content": "Lower Bethany fellowship updates." },
-  { "id": "menu_oloika_south", "title": "Oloika South", "image": "home.jpg", "content": "Oloika South fellowship." },
-  { "id": "menu_oloika_north", "title": "Oloika North", "image": "home.jpg", "content": "Oloika North updates." },
-  { "id": "menu_emmanuel", "title": "Emmanuel", "image": "home.jpg", "content": "Emmanuel group information." },
-  { "id": "menu_emmau", "title": "Emmau", "image": "home.jpg", "content": "Details about Emmau fellowship." },
-  { "id": "menu_nkoroi", "title": "Nkoroi", "image": "home.jpg", "content": "Nkoroi community and events." },
-  { "id": "menu_nkoroi_north", "title": "Nkoroi North", "image": "home.jpg", "content": "Nkoroi North fellowship details." },
-  { "id": "menu_olerai", "title": "Olerai", "image": "home.jpg", "content": "Olerai group activities." },
-  { "id": "menu_live", "title": "Live", "image": "home.jpg", "content": "Watch live streams and broadcasts." },
-  { "id": "menu_archives", "title": "Archives", "image": "home.jpg", "content": "Access past events and media." },
-  { "id": "menu_news", "title": "News", "image": "home.jpg", "content": "Latest news and announcements." },
-  { "id": "menu_contact", "title": "Contact", "image": "home.jpg", "content": "Get in touch with us." }
+  {
+    "id": "menu_home",
+    "entries": [
+      { "title": "Home", "image": "home.jpg", "content": "Welcome to the home page." },
+      { "title": "Home (Alt)", "image": "home.jpg", "content": "Explore the heart of our platform." },
+      { "title": "Home (Info)", "image": "home.jpg", "content": "Find quick access to all sections here." }
+    ]
+  },
+  {
+    "id": "menu_history",
+    "entries": [
+      { "title": "History", "image": "home.jpg", "content": "Learn about our history." },
+      { "title": "Our Past", "image": "home.jpg", "content": "Explore the rich heritage of our community." },
+      { "title": "Founding", "image": "home.jpg", "content": "Discover the story of our beginnings." }
+    ]
+  },
+  {
+    "id": "menu_the_lcc",
+    "entries": [
+      { "title": "The LCC", "image": "home.jpg", "content": "Discover more about The LCC." },
+      { "title": "LCC Overview", "image": "home.jpg", "content": "An overview of The LCC mission." },
+      { "title": "LCC Info", "image": "home.jpg", "content": "Understanding our local church council." }
+    ]
+  },
+  {
+    "id": "menu_elders",
+    "entries": [
+      { "title": "Elders", "image": "home.jpg", "content": "Meet our church elders." },
+      { "title": "Leadership Elders", "image": "home.jpg", "content": "Profiles of elder leadership." },
+      { "title": "Elders Team", "image": "home.jpg", "content": "Guiding the church with wisdom." }
+    ]
+  },
+  {
+    "id": "menu_parish_admin",
+    "entries": [
+      { "title": "Parish Admin", "image": "home.jpg", "content": "Administrative details and contacts." },
+      { "title": "Admin Contacts", "image": "home.jpg", "content": "Reach our parish administration team." },
+      { "title": "Admin Info", "image": "home.jpg", "content": "Structure of the parish admin office." }
+    ]
+  },
+  {
+    "id": "menu_leaders",
+    "entries": [
+      { "title": "Leaders", "image": "home.jpg", "content": "Our leadership team." },
+      { "title": "Church Leaders", "image": "home.jpg", "content": "Who leads and serves the church." },
+      { "title": "Leadership Panel", "image": "home.jpg", "content": "Meet the leadership council." }
+    ]
+  },
+  {
+    "id": "menu_staff",
+    "entries": [
+      { "title": "Staff", "image": "home.jpg", "content": "Meet the church staff." },
+      { "title": "Church Staff", "image": "home.jpg", "content": "Supporting team at the church." },
+      { "title": "Staff Info", "image": "home.jpg", "content": "Details on the church staff roles." }
+    ]
+  },
+  {
+    "id": "menu_youth",
+    "entries": [
+      { "title": "Youth", "image": "home.jpg", "content": "Programs and news for the youth." },
+      { "title": "Youth Ministry", "image": "home.jpg", "content": "Discover our youth groups and events." },
+      { "title": "Youth Fellowship", "image": "home.jpg", "content": "Join our vibrant youth fellowship." }
+    ]
+  },
+  {
+    "id": "menu_womans_guild",
+    "entries": [
+      { "title": "Womans Guild", "image": "home.jpg", "content": "Women’s Guild activities and events." },
+      { "title": "Women’s Fellowship", "image": "home.jpg", "content": "Gatherings and support for women." },
+      { "title": "Guild Events", "image": "home.jpg", "content": "Upcoming events for the guild." }
+    ]
+  },
+  {
+    "id": "menu_pcmf",
+    "entries": [
+      { "title": "P.C.M.F", "image": "home.jpg", "content": "Presbyterian Church Men's Fellowship." },
+      { "title": "Men’s Fellowship", "image": "home.jpg", "content": "Men serving the church together." },
+      { "title": "PCMF Group", "image": "home.jpg", "content": "Learn about PCMF missions." }
+    ]
+  },
+  {
+    "id": "menu_brigade",
+    "entries": [
+      { "title": "Brigade", "image": "home.jpg", "content": "Church brigade initiatives." },
+      { "title": "Boys & Girls Brigade", "image": "home.jpg", "content": "Youth formation through discipline." },
+      { "title": "Brigade Training", "image": "home.jpg", "content": "Programs for church brigade members." }
+    ]
+  },
+  {
+    "id": "menu_church_school",
+    "entries": [
+      { "title": "Church School", "image": "home.jpg", "content": "Children’s church and education programs." },
+      { "title": "Sunday School", "image": "home.jpg", "content": "Biblical teachings for children." },
+      { "title": "Child Ministries", "image": "home.jpg", "content": "Helping children grow in faith." }
+    ]
+  },
+  {
+    "id": "menu_christian_education",
+    "entries": [
+      { "title": "Christian Education", "image": "home.jpg", "content": "Learn and grow in faith." },
+      { "title": "Faith Learning", "image": "home.jpg", "content": "Courses for Christian growth." },
+      { "title": "Discipleship", "image": "home.jpg", "content": "Programs on becoming strong in faith." }
+    ]
+  },
+  {
+    "id": "menu_church_boards",
+    "entries": [
+      { "title": "Church Boards", "image": "home.jpg", "content": "Structure and board information." },
+      { "title": "Board Members", "image": "home.jpg", "content": "Who sits on each church board." },
+      { "title": "Board Activities", "image": "home.jpg", "content": "What our boards manage." }
+    ]
+  },
+  {
+    "id": "menu_sycamore_academy",
+    "entries": [
+      { "title": "Sycamore Academy", "image": "home.jpg", "content": "Information about Sycamore Academy." },
+      { "title": "Academy Info", "image": "home.jpg", "content": "Learn about our school programs." },
+      { "title": "Sycamore Programs", "image": "home.jpg", "content": "Classes and values taught here." }
+    ]
+  },
+  {
+    "id": "menu_uhai_water",
+    "entries": [
+      { "title": "Uhai Water", "image": "home.jpg", "content": "Uhai Water projects and impact." },
+      { "title": "Water Project", "image": "home.jpg", "content": "Clean water for the community." },
+      { "title": "Hydration Mission", "image": "home.jpg", "content": "Serving through safe water access." }
+    ]
+  },
+  {
+    "id": "menu_olosurutia",
+    "entries": [
+      { "title": "Olosurutia", "image": "home.jpg", "content": "Olosurutia fellowship and programs." },
+      { "title": "Olosurutia Community", "image": "home.jpg", "content": "Meet the people of Olosurutia." },
+      { "title": "Olosurutia Events", "image": "home.jpg", "content": "Gatherings and updates from the area." }
+    ]
+  },
+  {
+    "id": "menu_jerusalem",
+    "entries": [
+      { "title": "Jerusalem", "image": "home.jpg", "content": "Jerusalem parish details." },
+      { "title": "Jerusalem Zone", "image": "home.jpg", "content": "Explore this local parish." },
+      { "title": "Jerusalem Group", "image": "home.jpg", "content": "Updates and events from Jerusalem." }
+    ]
+  },
+  {
+    "id": "menu_tumaini",
+    "entries": [
+      { "title": "Tumaini", "image": "home.jpg", "content": "Tumaini group activities." },
+      { "title": "Tumaini Fellowship", "image": "home.jpg", "content": "Faith in action with Tumaini." },
+      { "title": "Tumaini Updates", "image": "home.jpg", "content": "Recent happenings in Tumaini." }
+    ]
+  },
+  {
+    "id": "menu_enchoro",
+    "entries": [
+      { "title": "Enchoro", "image": "home.jpg", "content": "Enchoro sub-group details." },
+      { "title": "Enchoro Community", "image": "home.jpg", "content": "Life and faith in Enchoro." },
+      { "title": "Enchoro Info", "image": "home.jpg", "content": "All about Enchoro fellowship." }
+    ]
+  },
+  {
+    "id": "menu_rimpa",
+    "entries": [
+      { "title": "Rimpa", "image": "home.jpg", "content": "Rimpa local fellowship." },
+      { "title": "Rimpa Group", "image": "home.jpg", "content": "Updates from Rimpa." },
+      { "title": "Life at Rimpa", "image": "home.jpg", "content": "What’s happening in Rimpa." }
+    ]
+  },
+  {
+    "id": "menu_lemelepo",
+    "entries": [
+      { "title": "Lemelepo", "image": "home.jpg", "content": "Lemelepo group information." },
+      { "title": "Lemelepo News", "image": "home.jpg", "content": "Updates and events in Lemelepo." },
+      { "title": "Lemelepo Fellowship", "image": "home.jpg", "content": "Faith in action at Lemelepo." }
+    ]
+  },
+  {
+    "id": "menu_upper_bethany",
+    "entries": [
+      { "title": "Upper Bethany", "image": "home.jpg", "content": "Upper Bethany details and events." },
+      { "title": "Bethany North", "image": "home.jpg", "content": "Life in Upper Bethany." },
+      { "title": "Upper Fellowship", "image": "home.jpg", "content": "Faith community in Upper Bethany." }
+    ]
+  },
+  {
+    "id": "menu_lower_bethany",
+    "entries": [
+      { "title": "Lower Bethany", "image": "home.jpg", "content": "Lower Bethany fellowship updates." },
+      { "title": "Bethany South", "image": "home.jpg", "content": "Events and news from Lower Bethany." },
+      { "title": "Lower Community", "image": "home.jpg", "content": "Church family in Lower Bethany." }
+    ]
+  },
+  {
+    "id": "menu_oloika_south",
+    "entries": [
+      { "title": "Oloika South", "image": "home.jpg", "content": "Oloika South fellowship." },
+      { "title": "South Oloika", "image": "home.jpg", "content": "Community life in South Oloika." },
+      { "title": "South Updates", "image": "home.jpg", "content": "What’s new in Oloika South." }
+    ]
+  },
+  {
+    "id": "menu_oloika_north",
+    "entries": [
+      { "title": "Oloika North", "image": "home.jpg", "content": "Oloika North updates." },
+      { "title": "North Oloika", "image": "home.jpg", "content": "Updates from Oloika North." },
+      { "title": "Oloika North Events", "image": "home.jpg", "content": "Community news and fellowship." }
+    ]
+  },
+  {
+    "id": "menu_emmanuel",
+    "entries": [
+      { "title": "Emmanuel", "image": "home.jpg", "content": "Emmanuel group information." },
+      { "title": "Emmanuel Fellowship", "image": "home.jpg", "content": "Faith-based activities in Emmanuel." },
+      { "title": "Emmanuel Parish", "image": "home.jpg", "content": "Discover more about Emmanuel." }
+    ]
+  },
+  {
+    "id": "menu_emmau",
+    "entries": [
+      { "title": "Emmau", "image": "home.jpg", "content": "Details about Emmau fellowship." },
+      { "title": "Emmau Group", "image": "home.jpg", "content": "Updates and stories from Emmau." },
+      { "title": "Emmau Ministry", "image": "home.jpg", "content": "Ministry work in Emmau." }
+    ]
+  },
+  {
+    "id": "menu_nkoroi",
+    "entries": [
+      { "title": "Nkoroi", "image": "home.jpg", "content": "Nkoroi community and events." },
+      { "title": "Nkoroi Fellowship", "image": "home.jpg", "content": "Faith and community in Nkoroi." },
+      { "title": "Nkoroi Info", "image": "home.jpg", "content": "Latest news from Nkoroi." }
+    ]
+  },
+  {
+    "id": "menu_nkoroi_north",
+    "entries": [
+      { "title": "Nkoroi North", "image": "home.jpg", "content": "Nkoroi North fellowship details." },
+      { "title": "North Nkoroi", "image": "home.jpg", "content": "Faith in the northern region of Nkoroi." },
+      { "title": "Nkoroi North Info", "image": "home.jpg", "content": "Meetings and programs in North Nkoroi." }
+    ]
+  },
+  {
+    "id": "menu_olerai",
+    "entries": [
+      { "title": "Olerai", "image": "home.jpg", "content": "Olerai group activities." },
+      { "title": "Olerai Community", "image": "home.jpg", "content": "News and fellowship from Olerai." },
+      { "title": "Olerai Fellowship", "image": "home.jpg", "content": "Faith life in Olerai." }
+    ]
+  },
+  {
+    "id": "menu_live",
+    "entries": [
+      { "title": "Live", "image": "home.jpg", "content": "Watch live streams and broadcasts." },
+      { "title": "Live Events", "image": "home.jpg", "content": "Join ongoing live church sessions." },
+      { "title": "Streaming", "image": "home.jpg", "content": "Church in real-time broadcast." }
+    ]
+  },
+  {
+    "id": "menu_archives",
+    "entries": [
+      { "title": "Archives", "image": "home.jpg", "content": "Access past events and media." },
+      { "title": "Media Archive", "image": "home.jpg", "content": "View sermons and historical content." },
+      { "title": "Old Records", "image": "home.jpg", "content": "Preserved history of the church." }
+    ]
+  },
+  {
+    "id": "menu_news",
+    "entries": [
+      { "title": "News", "image": "home.jpg", "content": "Latest news and announcements." },
+      { "title": "Updates", "image": "home.jpg", "content": "Church news and bulletins." },
+      { "title": "Announcements", "image": "home.jpg", "content": "Important updates for members." }
+    ]
+  },
+  {
+    "id": "menu_contact",
+    "entries": [
+      { "title": "Contact", "image": "home.jpg", "content": "Get in touch with us." },
+      { "title": "Reach Us", "image": "home.jpg", "content": "Contact information and directions." },
+      { "title": "Contact Info", "image": "home.jpg", "content": "We're here to hear from you." }
+    ]
+  }
 ]
