@@ -2,7 +2,7 @@
   {
     "id": "menu_home",
     "entries": [
-      { "title": "Home", "image": "pcea.jpg", "content": "Welcome to the home page." },
+      { "title": "Home", "image": "default.jpg", "content": "Welcome to the home page." },
       { "title": "Home (Alt)", "image": "pcea.jpg", "content": "Explore the heart of our platform." },
       { "title": "Home (Info)", "image": "pcea.jpg", "content": "Find quick access to all sections here." }
     ]
