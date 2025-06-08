@@ -1,16 +1,6 @@
 {
-  "name": "Daniel Meikan",
-  "age": 29,
-  "gender": "Female",
-  "email": "alice.johnson@example.com",
-  "phone": "+1-555-123-4567",
-  "address": {
-    "street": "123 Maple Street",
-    "city": "Springfield",
-    "state": "IL",
-    "postalCode": "62704",
-    "country": "USA"
-  },
-  "isMarried": false,
-  "hobbies": ["reading", "hiking", "photography"]
+  "page": "About",
+  "Title": "About Us",
+  "Image": "about.jpg",
+  "content": "Welcome to our platform! We are dedicated to empowering individuals and fostering a supportive community. Our mission is to inspire, educate, and connect people through meaningful content and innovative solutions."
 }
